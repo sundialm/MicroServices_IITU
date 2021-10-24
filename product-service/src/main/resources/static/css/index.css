@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url("../images/photo-boots.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: white;
+}
+
+.header__up {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.header__logo img {
+    width: 68px;
+    height: 68px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    display: block;
+    box-sizing: content-box;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 20px;
+    padding: 10px 0;
+    transition: 0.2s;
+}
+
+.menu__item:hover {
+    border-bottom: 3px solid #28c8c6;
+}
+
+.activ-link {
+    border-bottom: 3px solid #28c8c6;
+}
+
+.menu__btn {
+    background-color: #a100ff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 20px 60px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+.menu__btn:hover {
+    color: #a100ff;
+    background-color: white;
+}
+
+.header__down {
+    /* padding: 50px 0; */
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.header__title {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.header__text {
+    font-size: 16px;
+    line-height: 24px;
+    width: 45%;
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.form__input {
+    height: 60px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.form__btn {
+    width: 60px;
+    height: 60px;
+    background-color: #28C8C6;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    transition: 0.2s;
+}
+
+.form__btn:hover {
+    background-color: #a100ff;
+}
+
+.section-style {
+    background-color: #ebeff3;
+    text-align: center;
+}
+
+.section-style__title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.section__text {
+    font-size: 14px;
+    line-height: 25px;
+    color: #74797e;
+    padding: 10px 20% 30px;
+}
+
+.section-style__pic {
+    background: url("../images/bg-phone.png") no-repeat;
+    height: 238px;
+    background-position: center;
+}
+
+.footer {
+    padding: 40px 0 10px;
+    font-size: 18px;
+    line-height: 35px;
+    color: #8297a7;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__menu {
+    display: flex;
+}
+
+.footer__menu-col {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 70px;
+}
+
+.footer__menu-col a {
+    transition: 0.2;
+}
+
+.footer__menu-col a:hover {
+    color: #8500d2;
+}
+
+.footer__text {
+    margin: 0;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu__btn {
+    background-color: #28c8c6;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 20px 60px;
+    margin-left: 10px;
+    transition: 0.2s;
+    color: white;
+}
+
+.flex__wrapp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_category{
+    padding-bottom: 20px;
+}
+
+.section-style__title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.section-features {
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #D8E1E8;
+}
+
+.section-features__title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.for__adding{
+    padding: 50px;
+}
+.section-features__column {
+    flex-basis: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.column__pic_wrapper {
+    background-color: #8500d2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.buy{
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.column__pic {
+    display: block;
+    margin: auto;
+    padding: 23px 23px 7px;
+}
+.section-features__column__flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.column__title {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.column__text {
+    font-size: 14px;
+    line-height: 25px;
+    color: #74797e;
+    padding: 0 10px;
+}
+
+.section-guidelines {
+    text-align: center;
+    background-color: #F5F9FA;
+    padding-bottom: 100px;
+}
+
+.section-guidelines__title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+
+.section-guidelines__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.links_wrapper {
+    border: 2px solid #28c8c6;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.section-guidelines__link {
+    color: #28c8c6;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    transition: 0.2s;
+    margin: 0;
+}
+
+.section-guidelines__link:hover {
+    background-color: #28c8c6;
+    color: white;
+    /* border: 1px solid #28c8c6; */
+}
+
+.section-guidelines__columns {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.section-guidelines__col {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.section-guidelines__pic {
+    display: block;
+    border-radius: 4px 4px 0 0;
+}
+
+.pic-text_wrapper {
+    background-color: white;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #74797e;
+    border-radius: 0 0 4px 4px;
+}
+
+.section-lilac .container {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 980px;
+}
+
+.section-lilac__logo {
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.section-lilac__title {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.section-lilac__text {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 80px 0 0;
+    margin: 0;
+    width: 55%;
+}
