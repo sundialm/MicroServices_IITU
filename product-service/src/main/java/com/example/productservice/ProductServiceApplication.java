@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 @EnableHystrixDashboard
 @EnableHystrix
-@EnableCircuitBreaker
+
 public class ProductServiceApplication {
 
     public static void main(String[] args) {
