@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableHystrixDashboard
 @EnableHystrix
 @EnableDiscoveryClient
-@EnableZuulProxy
+//@EnableZuulProxy
 public class ProductServiceApplication {
 
     public static void main(String[] args) {
