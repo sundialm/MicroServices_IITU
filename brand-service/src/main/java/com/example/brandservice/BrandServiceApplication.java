@@ -12,7 +12,6 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableHystrix
 @EnableHystrixDashboard
 
-
 public class BrandServiceApplication {
 
     public static void main(String[] args) {
